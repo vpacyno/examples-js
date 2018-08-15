@@ -42,6 +42,6 @@ function pickFoodLocation() {
 		floor(random(cols)),
 		floor(random(rows))
 	);
-	food.mult(SCL); // multiply cordinates by scale
+	food.mult(SCL); 
 
 }
